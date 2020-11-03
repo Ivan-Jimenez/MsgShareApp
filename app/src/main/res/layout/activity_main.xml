@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnShowToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:text="Show Toast"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etUserMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnSendMsgToNextActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Send to next activity" />
+
+    <Button
+        android:id="@+id/btnShareOtherApps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="167dp"
+        android:text="Share to other apps" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btnRecyclerViewDemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:text="Recycler View Demo" />
+</RelativeLayout>
